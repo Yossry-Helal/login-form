@@ -5,9 +5,13 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+html{
+    font-size: 62.5%;
+}
 body{
     min-height: 100vh;
-    background:linear-gradient(to right top,#080808,#f3c702,#fadb50,#ececec );
+    /* background:linear-gradient(to right top,#080808,#f34602,#fa6950,#cc4e4e ); */
+    background-color:rgb(33, 185, 196)
 }
 form{
     background: #989898ce;
@@ -18,19 +22,25 @@ form{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    border-radius: 30px;
+    border-radius: 5rem;
+}
+.form-header{
+    color: #fff;
+    font-weight: 500;
 }
 
 .text-box{
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #000;
     position: relative;
     margin: 35px 0;
 }
+
 .text-box input{
     background: none;
     border: none;
     outline: none;
     width: 100;
+    font-size: 2rem;
 }
 .login-btn{
     height: 45px;
@@ -38,7 +48,7 @@ form{
     border: none;
     outline: none;
     background: grey;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 600;
     margin-bottom: 10px;
     border-radius: 30px;
@@ -49,7 +59,10 @@ form{
     text-align: center;
     
 }
+.signup-box p{
+    font-size: 1.2rem;
+}
 .signup-box a{
-    font-size: 1rem;
+    font-size: 3rem;
     font-weight: 600;
 }
